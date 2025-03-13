@@ -16,7 +16,7 @@ The script fetches repository data using GitHub’s v3 API (`orgs/{org}/repos`) 
 1. Replace `{org}` with your target organization and run:
 
 ```sh
-  gh api orgs/{org}/repos --paginate > results.json
+gh api orgs/{org}/repos --paginate > results.json
 ```
 
 This saves the API response as a JSON file locally.
